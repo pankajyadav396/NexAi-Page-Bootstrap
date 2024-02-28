@@ -34,6 +34,7 @@ $('.slider1').slick({
     slidesToScroll: 1,
     arrows: false,
     pauseOnHover: false,
+    pauseOnFocus: false,
     touchMove: false,
     responsive: [
         {
