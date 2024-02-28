@@ -16,7 +16,7 @@ menu.addEventListener("click", function () {
 home.forEach(x => {
     x.addEventListener("click", function () {
         mobileView.classList.toggle("show");
-        document.querySelector("body").classList.toggle("overflow-hidden")
+        document.querySelector("body").classList.remove("overflow-hidden")
         span4.classList.toggle("span1");
         span5.classList.toggle("span2");
         span6.classList.toggle("span3");
@@ -192,6 +192,10 @@ window.addEventListener('scroll', () => {
 
     } else { document.getElementById('backtop').style.display = "none" };
 })
+function scrolltotop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
 // preloader
 setTimeout(() => {

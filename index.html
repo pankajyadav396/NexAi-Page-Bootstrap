@@ -41,7 +41,6 @@
 
 <body class="black2 overflow-hidden">
     <div class="overflow-hidden">
-
         <!-- <preloder></preloder> -->
         <section id="loder" style="z-index: 50;"
             class="bg-black position-fixed w-100 h-100 d-flex flex-column align-items-center justify-content-center start-0 end-0">
@@ -50,21 +49,6 @@
             </h2>
             <div class="loader mt-3"></div>
         </section>
-
-        <!-- <back-to-top></back-to-top> -->
-        <button id="backtop" class=" p-2  position-fixed end-0 bottom-0 me-4 mb-4 backtotop duration-300"
-            onClick={scrollToTop}>
-            <span>
-                <svg width="27" height="27" fill="#ffff" viewBox="0 0 16 16">
-                    <path fillRule="evenodd"
-                        d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z">
-                    </path>
-                    <path fillRule="evenodd"
-                        d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z">
-                    </path>
-                </svg>
-            </span>
-        </button>
         <!-- <section-1></section-1> -->
         <div class="min-h-810 bg-header w-100 d-flex flex-column" id="home">
             <div class="height-110 my-container container pt-3 d-flex justify-content-end">
@@ -93,7 +77,7 @@
                                 class=" color-white position-relative ff-poppins fw-normal fs-sm text-decoration-none"
                                 href="#tokens">Tokens</a></li>
                     </ul>
-                    <div data-aos="zoom-in" data-aos-delay="3000">
+                    <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" data-aos-delay="3000">
                         <button
                             class="bg-green mx-4 black1 ff-recharge btn-sign top-0 end-0 fw-400 fs-sm1 cursor-pointer">
                             Sign Up
@@ -102,7 +86,8 @@
                 </div>
             </div>
 
-            <div data-aos="zoom-in" data-aos-delay="3000" data-duration="2200"
+            <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" data-aos-delay="3000"
+                data-duration="2200"
                 class="flex-grow-1 w-100-1164  d-flex flex-col container-xl ps-xl-5 mx-auto px-3 mt-144">
                 <div class="max-w-577 ms-xxl-5">
                     <p class="ff-recharge fw-bold fs-xl lh-75 color-white">
@@ -128,10 +113,11 @@
                     <div
                         class="col-md-6 col-12 d-flex position-relative flex-column justify-content-center align-items-center position-relative">
                         <div class="ellipse1 position-absolute"></div>
-                        <img data-aos="zoom-in" src="./assets/images/webp/Homeassist.webp" alt="image" class="w-100">
+                        <img data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in"
+                            src="./assets/images/webp/Homeassist.webp" alt="image" class="w-100">
                     </div>
                     <div class="col-md-6 col-12 mt-5 mt-md-0 align-items-center justify-content-center d-flex">
-                        <div data-aos="fade-up" class="max-w-517">
+                        <div data-aos-once="true" data-aos-duration="1500" data-aos="fade-up" class="max-w-517">
                             <h2
                                 class="color-green text-md-start text-center fs-lg fw-semibold  ff-recharge lh-50 mb-3 pb-1 color-green">
                                 Ai-Powered
@@ -175,10 +161,11 @@
                 <div class="ellipse4 position-absolute z-n1"></div>
                 <div class="h-100 w-100">
                     <div class="px-sm-3 px-lg-5 mx-lg-4">
-                        <h3 data-aos="zoom-in"
+                        <h3 data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in"
                             class="color-green  mx-auto ff-recharge fw-bold fs-lg color-white text-center text-white pt-2 mt-md-80">
                             Uniqe features</h3>
-                        <p data-aos="zoom-in" class="ff-poppins fw-normal color-white text-center mx-auto max-w-590">
+                        <p data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in"
+                            class="ff-poppins fw-normal color-white text-center mx-auto max-w-590">
                             Lorem ipsum dolor
                             sit
                             amet
@@ -302,11 +289,13 @@
             <div class="ellipse5 position-absolute z-n1"></div>
             <img src="./assets/images/webp/block-elle.png" alt="img" class="position-absolute end-0 top-0 z-n1">
             <div class="ellipse3 position-absolute d-none d-lg-block"></div>
-            <h2 data-aos="fade-up" class="color-green fs-lg mb-3 ff-recharge lh-50 fw-bold text-center mx-auto">
+            <h2 data-aos-once="true" data-aos-duration="1500" data-aos="fade-up"
+                class="color-green fs-lg mb-3 ff-recharge lh-50 fw-bold text-center mx-auto">
                 Blockchain & AI
                 technology
             </h2>
-            <p data-aos="fade-up" class="fw-normal ff-poppins fs-sm mb-2 color-grey text-center max-w-1057 mx-auto">
+            <p data-aos-once="true" data-aos-duration="1500" data-aos="fade-up"
+                class="fw-normal ff-poppins fs-sm mb-2 color-grey text-center max-w-1057 mx-auto">
                 Nexai is an
                 advanced
                 home
@@ -315,13 +304,13 @@
                 efficient
                 user
                 experience.</p>
-            <p data-aos="fade-up"
+            <p data-aos-once="true" data-aos-duration="1500" data-aos="fade-up"
                 class="fs-md text-center mx-auto max-w-684 mt-5 pt-md-5 color-white lh-32 ff-recharge">By building
                 the
                 software on blockchain, Nexai provides the following advantages</p>
             <div class="overflow-hidden z-1 w-100 ml-auto block-slider mb-5">
                 <div class="slider1">
-                    <div data-aos="zoom-in" class="bg-hexa">
+                    <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="bg-hexa">
                         <div class="w-100 h-100 justify-content-center align-items-center d-flex flex-column">
                             <div class="d-flex justify-content-center bg-transparent align-items-center  rounded-box">
                                 <p class="text-white ff-recharge fw-bold m-0 fs-md2">1</p>
@@ -332,7 +321,7 @@
                                 Privacy</p>
                         </div>
                     </div>
-                    <div data-aos="zoom-in" class="bg-hexa mt-100">
+                    <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="bg-hexa mt-100">
                         <div class="w-100 h-100 justify-content-center align-items-center d-flex flex-column">
                             <div class="d-flex justify-content-center bg-transparent align-items-center  rounded-box">
                                 <p class="text-white ff-recharge fw-bold m-0 fs-md2">2</p>
@@ -343,7 +332,7 @@
                                 Reliable Data Management</p>
                         </div>
                     </div>
-                    <div data-aos="zoom-in" class="bg-hexa">
+                    <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="bg-hexa">
                         <div class="w-100 h-100 justify-content-center align-items-center d-flex flex-column">
                             <div class="d-flex justify-content-center bg-transparent align-items-center  rounded-box">
                                 <p class="text-white ff-recharge fw-bold m-0 fs-md2">3</p>
@@ -353,7 +342,7 @@
                                 and Personalization</p>
                         </div>
                     </div>
-                    <div data-aos="zoom-in" class="bg-hexa mt-100">
+                    <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="bg-hexa mt-100">
                         <div class="w-100 h-100 justify-content-center align-items-center d-flex flex-column">
                             <div class="d-flex justify-content-center bg-transparent align-items-center  rounded-box">
                                 <p class="text-white ff-recharge fw-bold m-0 fs-md2">4</p>
@@ -364,7 +353,7 @@
                                 Transparent Transactions</p>
                         </div>
                     </div>
-                    <div data-aos="zoom-in" class="bg-hexa">
+                    <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="bg-hexa">
                         <div class="w-100 h-100 justify-content-center align-items-center d-flex flex-column">
                             <div class="d-flex justify-content-center bg-transparent align-items-center  rounded-box">
                                 <p class="text-white ff-recharge fw-bold m-0 fs-md2">5</p>
@@ -375,7 +364,7 @@
                                 Privacy</p>
                         </div>
                     </div>
-                    <div data-aos="zoom-in" class="bg-hexa mt-100">
+                    <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="bg-hexa mt-100">
                         <div class="w-100 h-100 justify-content-center align-items-center d-flex flex-column">
                             <div class="d-flex justify-content-center bg-transparent align-items-center  rounded-box">
                                 <p class="text-white ff-recharge fw-bold m-0 fs-md2">6</p>
@@ -394,12 +383,14 @@
         <section class="mt-5 pt-sm-4 pt-md-5 position-relative z-1" id="tokens">
             <img src="./assets/images/webp/block-elle2.png" alt="img" class="position-absolute start-0 top-0 z-n1">
             <div class="ellipse2 position-absolute z-n1 top-0"></div>
-            <h2 data-aos="fade-up" class="color-green fs-lg mb-3 ff-recharge lh-50 fw-bold text-center mx-auto">NexAi
+            <h2 data-aos-once="true" data-aos-duration="1500" data-aos="fade-up"
+                class="color-green fs-lg mb-3 ff-recharge lh-50 fw-bold text-center mx-auto">NexAi
                 does all this.
                 And
                 more.
             </h2>
-            <p data-aos="fade-up" class="fw-normal ff-poppins fs-sm mb-2 color-grey text-center max-w-1057 mx-auto">
+            <p data-aos-once="true" data-aos-duration="1500" data-aos="fade-up"
+                class="fw-normal ff-poppins fs-sm mb-2 color-grey text-center max-w-1057 mx-auto">
                 Nexai is an
                 advanced
                 home
@@ -409,35 +400,35 @@
                 user
                 experience.</p>
             <div class="slider2 mt-90">
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi,
                             Turn on
                             light</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi, set
                             alarm
                             of 5:00 am</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi,
                             measure
                             this table</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi,
                             Turn on
                             music</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi, set
                             alarm
@@ -445,7 +436,7 @@
                         </p>
                     </div>
                 </div>
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi,
                             measure
@@ -454,35 +445,35 @@
                 </div>
             </div>
             <div class="slider3" dir="rtl">
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi,
                             Turn on
                             light</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi, set
                             alarm
                             of 5:00 am</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi,
                             measure
                             this table</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi,
                             Turn on
                             music</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi, set
                             alarm
@@ -490,7 +481,7 @@
                         </p>
                     </div>
                 </div>
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi,
                             measure
@@ -499,35 +490,35 @@
                 </div>
             </div>
             <div class="slider2">
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi,
                             Turn on
                             light</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi, set
                             alarm
                             of 5:00 am</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi,
                             measure
                             this table</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi,
                             Turn on
                             music</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi, set
                             alarm
@@ -535,7 +526,7 @@
                         </p>
                     </div>
                 </div>
-                <div data-aos="zoom-in" class="three-slider-bg">
+                <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class="three-slider-bg">
                     <div class="w-100 h-100 justify-content-center d-flex align-items-center">
                         <p class="text-white ff-recharge fw-bold lh-32 mt-4 max-w-254 text-center fs-md1">NexAi,
                             measure
@@ -554,11 +545,11 @@
                 <div class="row flex-column-reverse flex-md-row w-100">
                     <div class="col-md-6 d-flex justify-content-center flex-column align-items-center">
                         <div class="max-w-564">
-                            <h2 data-aos="fade-up"
+                            <h2 data-aos-once="true" data-aos-duration="1500" data-aos="fade-up"
                                 class="color-green text-md-start text-center text-nowrap fs-lg mb-3 ff-recharge lh-50 fw-bold">
                                 What is NexAi?
                             </h2>
-                            <p data-aos="fade-up"
+                            <p data-aos-once="true" data-aos-duration="1500" data-aos="fade-up"
                                 class="fw-normal text-md-start text-center ff-poppins fs-sm3 color-grey2 m-0 max-w-1057 mx-auto">
                                 Beyond its
                                 convenience, Nexai revolutionizes the way you interact with your home environment.
@@ -570,7 +561,7 @@
                                 you
                                 experience smart living,
                                 Nexai opens up a world of possibilities.</p>
-                            <p data-aos="fade-up"
+                            <p data-aos-once="true" data-aos-duration="1500" data-aos="fade-up"
                                 class="fw-normal text-md-start text-center ff-poppins fs-sm3 mb-4 pb-2 color-grey2 max-w-1057 mx-auto">
                                 Nexai's
                                 software can be installed on all your smart devices, including smartphones,
@@ -589,7 +580,7 @@
                                 home computer from
                                 anywhere, Nexai empowers you with effortless control.</p>
                             <div class="text-center text-md-start">
-                                <button data-aos="fade-up"
+                                <button data-aos-once="true" data-aos-duration="1500" data-aos="fade-up"
                                     class="bg-green black1 ff-recharge btn-sign fw-400 fs-sm1 cursor-pointer">
                                     Know More
                                 </button>
@@ -598,8 +589,8 @@
                     </div>
                     <div class="col-md-6 align-items-center d-flex justify-content-center position-relative">
                         <div class="ellipse6 position-absolute end-0 me-5 mb-5 bottom-0"></div>
-                        <img data-aos="zoom-in" src="./assets/images/webp/airound.webp" alt="airound"
-                            class="ai-img w-100 max-w-496">
+                        <img data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in"
+                            src="./assets/images/webp/airound.webp" alt="airound" class="ai-img w-100 max-w-496">
                     </div>
                 </div>
             </div>
@@ -610,16 +601,18 @@
             <div class="ellipse4 position-absolute z-1 d-md-block d-none top-0"></div>
             <div class="ellipse2 position-absolute z-n1 bottom-0"></div>
             <div class="container-lg mt-5">
-                <h2 data-aos="fade-up" class="color-green text-center fs-lg mb-3 ff-recharge lh-50 fw-bold">
+                <h2 data-aos-once="true" data-aos-duration="1500" data-aos="fade-up"
+                    class="color-green text-center fs-lg mb-3 ff-recharge lh-50 fw-bold">
                     NexAI Token & utility</h2>
                 <div class="row">
                     <div class="col-md-6 d-flex align-items-center justify-content-center">
-                        <img data-aos="zoom-in" src="./assets/images/webp/handai.jpg" alt="img"
-                            class="max-w-517 handai-img w-100">
+                        <img data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in"
+                            src="./assets/images/webp/handai.jpg" alt="img" class="max-w-517 handai-img w-100">
                     </div>
                     <div class="col-md-6 handai-box col-12 h-450 overflow-x-hidden overflow-y-scroll mt-5">
                         <div class="d-flex justify-content-center align-items-center flex-column w-100">
-                            <div data-aos="fade-up" class="position-relative z-3 max-w-564">
+                            <div data-aos-once="true" data-aos-duration="1500" data-aos="fade-up"
+                                class="position-relative z-3 max-w-564">
                                 <img src="./assets/images/webp/lineimg.webp" alt="image"
                                     class="lineimg position-absolute h-100">
                                 <div
@@ -747,11 +740,12 @@
             <div class="container-lg my-5 pb-md-5 pt-5">
                 <div
                     class="d-flex flex-column flex-md-row my-sm-5 my-4 gap-3 justify-content-between align-items-center">
-                    <h1 data-aos="zoom-in" class="fs-lg text-center color-white heading-get ff-recharge fw-bold lh-50">
+                    <h1 data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in"
+                        class="fs-lg text-center color-white heading-get ff-recharge fw-bold lh-50">
                         Ready to get started <br> <span class="color-green">
                             Talk to us Today</span>
                     </h1>
-                    <div data-aos="zoom-in">
+                    <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in">
                         <button class="bg-green black1 ff-recharge text-nowrap btn-sign fw-400 fs-sm1 cursor-pointer">
                             Get Started
                         </button>
@@ -765,15 +759,17 @@
             <div class="ellipse2 position-absolute z-n1 top-0  d-none d-lg-block"></div>
             <div class='container-lg border-bottom pb-4'>
                 <div class='row justify-content-between'>
-                    <div data-aos="fade-up" class='col-lg-4 col-md-6'>
-                        <h1 data-aos="zoom-out" class="color-green ff-recharge fw-bold fs-xl lh-75">
+                    <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class='col-lg-4 col-md-6'>
+                        <h1 data-aos-once="true" data-aos-duration="1500" data-aos="zoom-out"
+                            class="color-green ff-recharge fw-bold fs-xl lh-75">
                             Nexai
                         </h1>
-                        <p data-aos="fade-up" class='fw-bold color-grey mt-4 fs-sm ff-recharge lh-25 max-w-356'>
+                        <p data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in"
+                            class='fw-bold color-grey mt-4 fs-sm ff-recharge lh-25 max-w-356'>
                             Nullam
                             viverra
                             natoque amet et sed scelerisque viverra fringilla platea. Ullamcorper.</p>
-                        <div data-aos="fade-up" class='d-flex gap-2'>
+                        <div data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in" class='d-flex gap-2'>
                             <a href="https://twitter.com/?lang=en" target='_blank' class='footer-links'>
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -808,7 +804,8 @@
                         </div>
                     </div>
                     <div class='d-flex justify-content-md-end gap-4 gap-sm-5 col-lg-4 col-md-6 mt-4 mt-md-0'>
-                        <ul data-aos="fade-up" class='gap-3 d-flex flex-column p-0'>
+                        <ul data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in"
+                            class='gap-3 d-flex flex-column p-0'>
                             <l1 class=' fs-sm1 text-nowrap text-white ff-recharge font-bold'>
                                 Quick Links
                             </l1>
@@ -839,7 +836,8 @@
                                     About
                                 </a></li>
                         </ul>
-                        <ul data-aos="fade-up" class='gap-3 d-flex flex-column'>
+                        <ul data-aos-once="true" data-aos-duration="1500" data-aos="zoom-in"
+                            class='gap-3 d-flex flex-column'>
                             <l1 class='fs-sm1 text-white ff-recharge fw-bold'>
                                 Information's
                             </l1>
@@ -865,6 +863,21 @@
                 @Copyright.nexai <span>{d}</span>
             </p>
         </footer>
+
+        <!-- <back-to-top></back-to-top> -->
+        <button id="backtop" class=" p-2  position-fixed end-0 bottom-0 me-4 mb-4 backtotop duration-300"
+            onclick="scrolltotop()">
+            <span>
+                <svg width="27" height="27" fill="#ffff" viewBox="0 0 16 16">
+                    <path fillRule="evenodd"
+                        d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z">
+                    </path>
+                    <path fillRule="evenodd"
+                        d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z">
+                    </path>
+                </svg>
+            </span>
+        </button>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -880,8 +893,7 @@
     <script>
         AOS.init(
             {
-                once: true,
-                duration: 1500
+
             }
         );
     </script>
