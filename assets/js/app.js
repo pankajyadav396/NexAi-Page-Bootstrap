@@ -58,6 +58,13 @@ $('.slider1').slick({
             }
         },
         {
+            breakpoint: 900,
+            settings: {
+                slidesToShow: 2.5,
+            }
+        },
+
+        {
             breakpoint: 800,
             settings: {
                 slidesToShow: 2,
