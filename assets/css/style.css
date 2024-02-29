@@ -33,7 +33,7 @@
     --fs-md: 16px;
     --fs-md1: 18px;
     --fs-md2: 22px;
-    --fs-md3: 14px;
+    --fs-md3: 18px;
     --fs-lg: 27px;
     --fs-xl: 30px;
 
@@ -61,9 +61,8 @@
 }
 
 .lh-50 {
-    line-height: 50.4px;
+    line-height: 44.4px;
 }
-
 
 .lh-21 {
     line-height: 21.6px;
@@ -616,6 +615,10 @@
         --fs-xl: 50px;
     }
 
+    .lh-50 {
+        line-height: 50.4px;
+    }
+
     .bg-uniqe-card {
         padding: 30px 24px;
         max-width: 350px;
@@ -646,7 +649,7 @@
         --fs-md: 20px;
         --fs-md1: 23px;
         --fs-md2: 32px;
-        --fs-md3: 18px !important;
+        --fs-md3: 20px !important;
         --fs-lg: 36px;
         --fs-xl: 50px;
     }
@@ -688,7 +691,7 @@
         --fs-sm: 16px;
         --fs-sm3: 16px;
         --fs-sm1: 18px;
-        --fs-md: 20px;
+        --fs-md: 20px !important;
         --fs-md1: 24px;
         --fs-md2: 32px;
         --fs-md3: 24px !important;
